@@ -1,0 +1,26 @@
+#header {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+}
+
+
+#body{
+	background-color:whitesmoke;
+	font-family:"Georgia";
+	font-size:20px;
+	padding: 10px;
+}
+
+title {
+    display: none;
+}
+
+h1 {
+
+}
+
+h2{
+
+}
