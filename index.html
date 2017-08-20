@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Will need to add own CSS link here -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<body>
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+  <a href="#Home" class="w3-button w3-bar-item">Home</a>
+  <a href="#About" class="w3-button w3-bar-item">About</a>
+  <a href="#Products" class="w3-button w3-bar-item">Products</a>
+  <a href="#Contact" class="w3-button w3-bar-item">Contact</a>
+</nav>
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="2016-Ford-Focus-RS_hatchback-Sedan-01.jpg" style="width:70%">
+  <img class="mySlides" src="2016-ford-focus-rs-rear-drifting.jpeg" style="width:70%">
+  <img class="mySlides" src="IMG_5230.jpg" style="width:70%">
+</section>
+
+<script>
+// Automatic Slideshow - change image every x seconds
+var myIndex = 0;
+var timeDelay = 5000 <!-- milliseconds -->
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, timeDelay);
+}
+</script>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="https://www.linkedin.com/in/nicholaskentau/"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+    Powered by <a href="https://www.nrkeng.com.au" target="_blank">NRK Engineering</a>
+  </p>
+</footer>
+<!-- The fafa above is the linked alls for the icon. May need to change them if not open source -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+</body>
+</html>
