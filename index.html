@@ -1,53 +1,38 @@
 <!DOCTYPE html>
 <html>
+<!-- I See you looking at me ;) -->
+<!--
+	Cheat Sheet
+	use . for class, eg, class = myClass then do .myclass
+	use # for id, eg, id = myID, then do #myID
+-->
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Will need to add own CSS link here -->
-<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css"> -->
-<!-- change to this link when website registered -->
-<!-- <link rel="stylesheet" href="https://www.nrkeng.com/nrkengcss/nrkengmaincss.css">
--->
-<link rel="stylesheet" href="nrkengmaincss.css">
+<link rel="stylesheet" href="css/nrk.css">
 
 <head>
   <title>NRK Engineering</title>
 </head>
 <body>
 <!-- Navigation -->
-<nav class="w3-bar w3-black">
-  <a href="#Home" class="w3-button w3-bar-item">Home</a>
-  <a href="#About" class="w3-button w3-bar-item">About</a>
-  <a href="#Products" class="w3-button w3-bar-item">Products</a>
-  <a href="#Contact" class="w3-button w3-bar-item">Contact</a>
+<nav class="nav-bar nrk-black">
+  <a href="#Home" class="nrk-button nrk-bar-item">Home</a>
+  <a href="#About" class="nrk-button nrk-bar-item">About</a>
+  <a href="#Products" class="nrk-button nrk-bar-item">Products</a>
+  <a href="#Contact" class="nrk-button nrk-bar-item">Contact</a>
 </nav>
 <!-- Slide Show -->
-<section>
-  <img class="mySlides" src="2016-Ford-Focus-RS_hatchback-Sedan-01.jpg" style="width:70%">
-  <img class="mySlides" src="2016-ford-focus-rs-rear-drifting.jpeg" style="width:70%">
-  <img class="mySlides" src="IMG_5230.jpg" style="width:70%">
-</section>
+<mainSection class= "mainBox">
+Main Section
+</MainSection>
 
-<script>
-// Automatic Slideshow - change image every x seconds
-var myIndex = 0;
-var timeDelay = 5000 <!-- milliseconds -->
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, timeDelay);
-}
-</script>
+<underNavBar class= "underNavBox">
+Under Navbar
+</underNavBar>
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+<footer class="nrk-container nrk-padding-64 nrk-center nrk-black nrk-xlarge">
   <a href="#"><i class="fa fa-facebook-official"></i></a>
   <a href="#"><i class="fa fa-pinterest-p"></i></a>
   <a href="#"><i class="fa fa-twitter"></i></a>
