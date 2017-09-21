@@ -1,0 +1,55 @@
+Principals of website design
+
+- Purpose
+
+- Communication
+
+- Typefaces
+
+- Colours
+
+- Images
+
+- Navigation
+
+- Grid based Layout
+
+- "F" Pattern Design
+
+- Load Time
+
+- Mobile Friendly
+
+---- Requiements for Design
+
+Only a few pages, follow three click rule.
+
+	- Main (index.html),
+	- About (abount.html),
+	- Services (services.html),
+	- Case Studies (casestudy/html),
+	- Contact (contact.html),
+
+-- Main
+
+ The main page will be the first page the users sees. Must be clean and uncluttered. Must have
+easy and quick access to all other pages. Will include the comany logo and a brief slogan or
+description of services. Include nice images, posibale animations depending on what is reponsive
+and pleasent looking.
+
+-- About
+
+ Brief description of comany and staff. Similar style to main page, but does not need to include
+images or animations.
+
+-- Services
+
+ Descritption of services performed. 
+
+-- Case Studies
+
+ Description of previous work in small paragraphs with accompanying pictures.
+
+-- Contact
+
+ 

@@ -1,0 +1,10 @@
+<!-- This file helps search engines index the webpages-->
+<!-- Add any pages you want indexed here -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>http://nrkeng.com.au/</loc></url>
+  <url><loc>http://nrkeng.com.au/index.html</loc></url>
+  <url><loc>http://nrkeng.com.au/about.html</loc></url>
+  <url><loc>http://nrkeng.com.au/contact.html</loc></url>
+</urlset>

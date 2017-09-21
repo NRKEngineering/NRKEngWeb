@@ -1,0 +1,9 @@
+# Global
+User-agent: *
+Disallow: /css
+Disallow: /docs
+Disallow: /img
+
+# Google Image
+User-agent: Googlebot-Image
+Disallow: /img
